@@ -7,7 +7,7 @@ defaults write -g NSAutomaticWindowAnimationsEnabled -boolean false
 echo "Speed up showing / hiding sheets, resizing pref windows, zooming windows, etc."
 defaults write -g NSWindowResizeTime -float 0.001
 
-echo "Speed up closing QL windows"
+echo "Speed up closing QuickLook windows"
 defaults write -g QLPanelAnimationDuration -float 0
 
 echo "Hide the dock faster"
@@ -48,7 +48,7 @@ echo "Disable DS_Store"
 # I believe this hasn't worked properly for quite some time, but still worth a shot
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -boolean true
 
-echo "Select text from QL (no longer seems to work)"
+echo "Select text from QuickLook (may no longer work)"
 # Supposedly broken on/after Sierra?
 defaults write com.apple.finder QLEnableTextSelection -boolean true
 

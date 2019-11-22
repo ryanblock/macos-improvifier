@@ -1,6 +1,6 @@
 # macOS improvifier
 
-> A collection of hidden settings that makes Macs feel (and run) a bit faster
+> A collection of hidden settings that makes Macs feel (and sometimes run) a bit faster
 
 Over the last few decades, the folks at Apple have pioneered an enormous number of friendly, cute, fun, and often elegant details into their software – especially macOS, their most mature operating system.
 
@@ -13,16 +13,17 @@ This shell script includes a curated list of [`defaults write`](https://ss64.com
 
 1. Pull down this repo (or just download `mac-unsuck.sh`)
 2. Ensure the shell script is executable on your filesystem
-3. Run the shell script (`$ ./mac-unsuck.sh`)
+3. Run the shell script: `$ ./mac-unsuck.sh`
 4. Restart your computer
+   - Yes, you could just restart Finder, Dock, etc., but some of these settings do require a full login/logout, so just restart
 
 
 ## What it does
 
 ### General speed improvements
 - Disable window + popover open / close animations
-- Speed up showing / hiding sheets, resizing pref windows, zooming windows, etc."
-- Speed up closing QL windows
+- Speed up showing / hiding sheets, resizing pref windows, zooming windows, etc.
+- Speed up closing QuickLook windows
 - Hide the dock faster
 - Disable dock animations
 - Disable Finder animations
@@ -36,7 +37,7 @@ This shell script includes a curated list of [`defaults write`](https://ss64.com
 - Show all filename extensions
 - Limit finder search scope to current dir
 - Disable DS_Store
-- Select text from QL (no longer seems to work)
+- Select text from QuickLook (may no longer work)
 
 ### Misc
 - Disable download quarantining
