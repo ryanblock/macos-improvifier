@@ -4,7 +4,7 @@
 
 Over the last few decades, the folks at Apple have pioneered an enormous number of friendly, cute, fun, and often elegant details into their software – especially macOS, their most mature operating system.
 
-Unfortunately, a great many of these details confer a diminished experience for more experienced users, who require maximal responsiveness and reduced barriers to operating at the speed of thought.
+Unfortunately, a great many of these details confer a diminished experience for more advanced users, who require maximal responsiveness, minimal UI guardrails, and reduced barriers to operating at the speed of thought.
 
 This shell script includes a curated list of [`defaults write`](https://ss64.com/osx/defaults.html) commands that strip out many of the small animations and delays that make every Mac feel just a wee bit slower. It also adds a number of (hopefully) helpful hidden defaults / options across the Finder, Dock and throughout macOS.
 
