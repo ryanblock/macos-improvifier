@@ -1,5 +1,10 @@
 # macOS improvifier
 
+## 2023 update
+
+Some of the more useful better settings found in this script may no longer be working in Ventura or other later macOS versions. However, I've had pretty good luck with [Marcel Bresink's TinkerTool](https://www.bresink.com/osx/TinkerTool.html), give it a shot!
+
+
 > A collection of hidden settings that makes Macs feel (and sometimes run) a bit faster
 
 Over the last few decades, the folks at Apple have pioneered an enormous number of friendly, cute, fun, and often elegant details into their software – especially macOS, their most mature operating system.
